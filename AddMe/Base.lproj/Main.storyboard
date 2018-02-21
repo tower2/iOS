@@ -1,25 +1,118 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AddMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="BlackAbstract (EDITED)" translatesAutoresizingMaskIntoConstraints="NO" id="VrZ-sE-qJK">
+                                <frame key="frameInset" width="618" height="600"/>
+                            </imageView>
+                            <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What Number To Add??" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FdK-um-C3B">
+                                <frame key="frameInset" minX="151" minY="369" width="280" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="k9I-XU-C8b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ADD-ME-0" translatesAutoresizingMaskIntoConstraints="NO" id="ByJ-D9-9TA">
+                                <frame key="frameInset" minX="74" minY="20" width="453" height="117"/>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLt-0p-6XT">
+                                <frame key="frameInset" minX="214" minY="442" width="154" height="86"/>
+                                <color key="backgroundColor" red="0.95672595500946045" green="0.0" blue="0.085249856114387512" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="40"/>
+                                <state key="normal" title="+ ADD +">
+                                    <color key="titleColor" red="0.95565176010131836" green="0.93164539337158203" blue="0.24039818346500397" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressedAddButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vfd-lV-ch9"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="240" verticalHuggingPriority="251" misplaced="YES" text="Press ADD to Begin......" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fxc-4R-DsF">
+                                <frame key="frameInset" minX="150" minY="129" width="300" height="99"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Fxc-4R-DsF" secondAttribute="height" multiplier="340:99" id="aWT-H0-YQz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN-Bold" family="Malayalam Sangam MN" pointSize="26"/>
+                                <color key="textColor" red="0.95565176010131836" green="0.93164539337158203" blue="0.24039818346500397" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0MH-il-lBm" userLabel="BalledPaperButton">
+                                <frame key="frameInset" minX="85" minY="276" width="400" height="350"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="M5h-wL-gt7"/>
+                                    <constraint firstAttribute="height" constant="130" id="dhU-mF-Ibe"/>
+                                </constraints>
+                                <state key="normal" image="TrashBall"/>
+                                <connections>
+                                    <action selector="balledPaperButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bVi-gp-El9"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="cLIcK !!!" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zoy-7p-XUN">
+                                <frame key="frameInset" minX="252" minY="238" width="97" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.95672595500946045" green="0.0" blue="0.085249856114387512" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="22"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ByJ-D9-9TA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="1Lm-dU-keM"/>
+                            <constraint firstItem="Fxc-4R-DsF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="129" id="2Q9-lg-oKR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0MH-il-lBm" secondAttribute="bottom" constant="20" id="5up-dZ-pC3"/>
+                            <constraint firstItem="FdK-um-C3B" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8zK-a7-kV6"/>
+                            <constraint firstItem="VrZ-sE-qJK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="ASb-eU-kzo"/>
+                            <constraint firstItem="ByJ-D9-9TA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="J1I-Jz-d8c"/>
+                            <constraint firstItem="Fxc-4R-DsF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nrm-v1-U6J"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VrZ-sE-qJK" secondAttribute="trailing" id="UDT-aC-XjI"/>
+                            <constraint firstItem="QLt-0p-6XT" firstAttribute="top" secondItem="FdK-um-C3B" secondAttribute="bottom" constant="30" id="X6v-E3-kle"/>
+                            <constraint firstItem="VrZ-sE-qJK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="YMh-Xs-HKj"/>
+                            <constraint firstItem="0MH-il-lBm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zid-Hf-7p3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VrZ-sE-qJK" secondAttribute="bottom" id="Zo1-am-k6b"/>
+                            <constraint firstItem="QLt-0p-6XT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bdY-tJ-DO3"/>
+                            <constraint firstItem="Zoy-7p-XUN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bne-vx-sIY"/>
+                            <constraint firstItem="Zoy-7p-XUN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iVA-3r-qyS"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="FdK-um-C3B" secondAttribute="bottom" constant="201" id="qc3-Ju-hC7"/>
+                            <constraint firstItem="ByJ-D9-9TA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uzJ-xu-FKf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0MH-il-lBm" secondAttribute="bottom" constant="30" id="zNy-gc-I7y"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="addButton" destination="QLt-0p-6XT" id="xED-M5-a5h"/>
+                        <outlet property="addMeTitle" destination="ByJ-D9-9TA" id="ipd-DD-pnw"/>
+                        <outlet property="addToBegin" destination="Fxc-4R-DsF" id="Ltv-pQ-KnO"/>
+                        <outlet property="addToBeginLabel" destination="Fxc-4R-DsF" id="q7I-GX-Pv3"/>
+                        <outlet property="balledPaperButton" destination="0MH-il-lBm" id="hU8-Jr-3QZ"/>
+                        <outlet property="clickLabel" destination="Zoy-7p-XUN" id="ucb-Gn-usG"/>
+                        <outlet property="numberAdd" destination="FdK-um-C3B" id="pbK-aw-VeO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="305" y="389"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ADD-ME-0" width="784" height="96"/>
+        <image name="BlackAbstract (EDITED)" width="1198" height="1027"/>
+        <image name="TrashBall" width="326" height="304"/>
+    </resources>
 </document>
