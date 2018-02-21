@@ -1,25 +1,108 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tapper_extreme" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="halloween" translatesAutoresizingMaskIntoConstraints="NO" id="GT0-Ni-Vnd" userLabel="Halloween BG">
+                                <frame key="frameInset" minX="33" width="720" height="645"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aff-8E-rov" userLabel="Bloody Tap Button">
+                                <frame key="frameInset" minX="295" minY="430" width="107" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="110" id="7Jp-Cf-1wb"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="107" id="KGQ-3X-hVX"/>
+                                    <constraint firstAttribute="height" constant="110" id="aMo-DK-Hjx"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="107" id="dCg-jn-SMC"/>
+                                    <constraint firstAttribute="width" constant="107" id="lzc-BL-70A"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="110" id="vh7-H3-Ljn"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="bloodDrip(edited)"/>
+                                <connections>
+                                    <action selector="onPlayBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PPL-Tx-lRG"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="HOW MANY TAPS TO WIN " textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OTR-31-vaV" userLabel="HOW MANY TAPS TO WIN">
+                                <frame key="frameInset" minX="245" minY="375" width="204" height="30"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="13"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QlR-il-d91" userLabel="Play Button">
+                                <frame key="frameInset" minX="270" minY="148" width="154" height="137"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="137" id="V8P-xK-Ppq"/>
+                                    <constraint firstAttribute="width" constant="154" id="c5x-wM-ZRC"/>
+                                </constraints>
+                                <state key="normal" image="skull(edited)"/>
+                                <connections>
+                                    <action selector="onCoinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nRR-RZ-7rW"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1000 TAPS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z30-tg-GcD" userLabel="Taps Label">
+                                <frame key="frameInset" minX="197" minY="51" width="303" height="77"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN-Bold" family="Gurmukhi MN" pointSize="55"/>
+                                <color key="textColor" red="0.93269228935241699" green="0.0" blue="0.080147437751293182" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="DARE-TO-TAP" translatesAutoresizingMaskIntoConstraints="NO" id="sKh-sc-62i">
+                                <frame key="frameInset" minX="45" minY="10" width="510" height="107"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aff-8E-rov" firstAttribute="top" secondItem="OTR-31-vaV" secondAttribute="bottom" constant="25" id="6U7-bB-WoZ"/>
+                            <constraint firstItem="sKh-sc-62i" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="10" id="G58-tt-PC5"/>
+                            <constraint firstAttribute="bottom" secondItem="GT0-Ni-Vnd" secondAttribute="bottom" constant="-45" id="N94-Er-fQ4"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aff-8E-rov" secondAttribute="bottom" constant="60" id="PK5-S1-sD1"/>
+                            <constraint firstItem="Z30-tg-GcD" firstAttribute="centerX" secondItem="GT0-Ni-Vnd" secondAttribute="centerX" constant="-45" id="PYE-zE-OdA"/>
+                            <constraint firstItem="GT0-Ni-Vnd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="33" id="Qfd-d6-fBj"/>
+                            <constraint firstItem="QlR-il-d91" firstAttribute="centerX" secondItem="GT0-Ni-Vnd" secondAttribute="centerX" constant="-46" id="a00-ay-WLd"/>
+                            <constraint firstItem="aff-8E-rov" firstAttribute="centerX" secondItem="GT0-Ni-Vnd" secondAttribute="centerX" constant="-44.5" id="gYk-8G-xdd"/>
+                            <constraint firstItem="QlR-il-d91" firstAttribute="top" secondItem="sKh-sc-62i" secondAttribute="bottom" constant="31" id="hbJ-9X-dLD"/>
+                            <constraint firstItem="Z30-tg-GcD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="31" id="hyr-WG-Rfx"/>
+                            <constraint firstItem="OTR-31-vaV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="koF-1f-fm8"/>
+                            <constraint firstItem="OTR-31-vaV" firstAttribute="centerX" secondItem="GT0-Ni-Vnd" secondAttribute="centerX" constant="-46" id="mnK-p0-BSs"/>
+                            <constraint firstItem="OTR-31-vaV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n2A-Kt-CAL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sKh-sc-62i" secondAttribute="trailing" constant="25" id="o03-T7-9kw"/>
+                            <constraint firstAttribute="trailing" secondItem="GT0-Ni-Vnd" secondAttribute="trailing" constant="-153" id="oSK-Ie-EuS"/>
+                            <constraint firstItem="aff-8E-rov" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pww-Wq-hHv"/>
+                            <constraint firstItem="sKh-sc-62i" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="sBZ-Zi-hqh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sKh-sc-62i" secondAttribute="trailing" constant="25" id="uke-Un-ltp"/>
+                            <constraint firstItem="aff-8E-rov" firstAttribute="top" secondItem="OTR-31-vaV" secondAttribute="bottom" constant="25" id="wAY-22-leU"/>
+                            <constraint firstItem="GT0-Ni-Vnd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xQi-qw-iZD"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="howManyTapsTxt" destination="OTR-31-vaV" id="6JH-gt-KmF"/>
+                        <outlet property="logoImg" destination="sKh-sc-62i" id="YbL-fG-gNi"/>
+                        <outlet property="playBtn" destination="QlR-il-d91" id="Jv0-3d-gPS"/>
+                        <outlet property="tapsBtn" destination="aff-8E-rov" id="NQb-CW-kAu"/>
+                        <outlet property="tapsLbl" destination="Z30-tg-GcD" id="bBx-dv-umh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="355" y="385"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="DARE-TO-TAP" width="720" height="107"/>
+        <image name="bloodDrip(edited)" width="579" height="1194"/>
+        <image name="halloween" width="1667" height="1667"/>
+        <image name="skull(edited)" width="1540" height="1187"/>
+    </resources>
 </document>
