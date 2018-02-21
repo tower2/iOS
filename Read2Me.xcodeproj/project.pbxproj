@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		F874F0D8200EF31400A848D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F874F0D7200EF31400A848D0 /* AppDelegate.swift */; };
-		F874F0DA200EF31400A848D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F874F0D9200EF31400A848D0 /* ViewController.swift */; };
+		F874F0DA200EF31400A848D0 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F874F0D9200EF31400A848D0 /* RecordSoundsViewController.swift */; };
 		F874F0DD200EF31400A848D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F874F0DB200EF31400A848D0 /* Main.storyboard */; };
 		F874F0DF200EF31400A848D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F874F0DE200EF31400A848D0 /* Assets.xcassets */; };
 		F874F0E2200EF31400A848D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F874F0E0200EF31400A848D0 /* LaunchScreen.storyboard */; };
 		F874F0ED200EF31500A848D0 /* Read2MeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F874F0EC200EF31500A848D0 /* Read2MeTests.swift */; };
 		F874F0F8200EF31500A848D0 /* Read2MeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F874F0F7200EF31500A848D0 /* Read2MeUITests.swift */; };
+		F874F106201242C300A848D0 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F874F105201242C300A848D0 /* PlaySoundsViewController.swift */; };
+		F8CB71F02024BBD700CB81D1 /* Read2MeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CB71EF2024BBD700CB81D1 /* Read2MeScene.swift */; };
+		F8CB71F2202A588600CB81D1 /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CB71F1202A588600CB81D1 /* playsoundsviewcontroller-audio.swift */; };
+		F8CB71F42035D4BE00CB81D1 /* MiddleMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CB71F32035D4BE00CB81D1 /* MiddleMan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		F874F0D4200EF31300A848D0 /* Read2Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Read2Me.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F874F0D7200EF31400A848D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F874F0D9200EF31400A848D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F874F0D9200EF31400A848D0 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		F874F0DC200EF31400A848D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F874F0DE200EF31400A848D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F874F0E1200EF31400A848D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		F874F0F3200EF31500A848D0 /* Read2MeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Read2MeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F874F0F7200EF31500A848D0 /* Read2MeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Read2MeUITests.swift; sourceTree = "<group>"; };
 		F874F0F9200EF31500A848D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F874F105201242C300A848D0 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		F8CB71EF2024BBD700CB81D1 /* Read2MeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Read2MeScene.swift; sourceTree = "<group>"; };
+		F8CB71F1202A588600CB81D1 /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
+		F8CB71F32035D4BE00CB81D1 /* MiddleMan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiddleMan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				F874F0D7200EF31400A848D0 /* AppDelegate.swift */,
-				F874F0D9200EF31400A848D0 /* ViewController.swift */,
+				F874F0D9200EF31400A848D0 /* RecordSoundsViewController.swift */,
 				F874F0DB200EF31400A848D0 /* Main.storyboard */,
 				F874F0DE200EF31400A848D0 /* Assets.xcassets */,
 				F874F0E0200EF31400A848D0 /* LaunchScreen.storyboard */,
 				F874F0E3200EF31400A848D0 /* Info.plist */,
+				F874F105201242C300A848D0 /* PlaySoundsViewController.swift */,
+				F8CB71EF2024BBD700CB81D1 /* Read2MeScene.swift */,
+				F8CB71F1202A588600CB81D1 /* playsoundsviewcontroller-audio.swift */,
+				F8CB71F32035D4BE00CB81D1 /* MiddleMan.swift */,
 			);
 			path = Read2Me;
 			sourceTree = "<group>";
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F874F0DA200EF31400A848D0 /* ViewController.swift in Sources */,
+				F874F0DA200EF31400A848D0 /* RecordSoundsViewController.swift in Sources */,
+				F8CB71F2202A588600CB81D1 /* playsoundsviewcontroller-audio.swift in Sources */,
+				F874F106201242C300A848D0 /* PlaySoundsViewController.swift in Sources */,
+				F8CB71F42035D4BE00CB81D1 /* MiddleMan.swift in Sources */,
 				F874F0D8200EF31400A848D0 /* AppDelegate.swift in Sources */,
+				F8CB71F02024BBD700CB81D1 /* Read2MeScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +521,7 @@
 				F874F0FE200EF31500A848D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F874F0FF200EF31500A848D0 /* Build configuration list for PBXNativeTarget "Read2MeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				F874F101200EF31500A848D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F874F102200EF31500A848D0 /* Build configuration list for PBXNativeTarget "Read2MeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				F874F104200EF31500A848D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
