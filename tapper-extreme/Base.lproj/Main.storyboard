@@ -22,8 +22,7 @@
                                 <frame key="frameInset" minX="-30" minY="-21" width="465" height="690"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aff-8E-rov" userLabel="Bloody Tap Button">
-                                <frame key="frameInset" minX="134" minY="413" width="107" height="110"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aff-8E-rov" userLabel="Bloody Tap Button">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="107" id="9Hv-k8-slw"/>
                                     <constraint firstAttribute="height" constant="110" id="uMf-Vj-wcc"/>
@@ -46,11 +45,9 @@
                                     <action selector="onCoinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nRR-RZ-7rW"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="DARE-TO-TAP" translatesAutoresizingMaskIntoConstraints="NO" id="sKh-sc-62i">
-                                <frame key="frameInset" minX="9" minY="20" width="350" height="107"/>
-                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DARE-TO-TAP" translatesAutoresizingMaskIntoConstraints="NO" id="sKh-sc-62i"/>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EiB-LO-Oi6">
-                                <frame key="frameInset" minX="85" minY="65" width="189" height="85"/>
+                                <frame key="frameInset" minX="85" minY="86" width="189" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -60,11 +57,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="OTR-31-vaV" firstAttribute="top" secondItem="QlR-il-d91" secondAttribute="bottom" constant="41" id="3oF-Ad-LNQ"/>
-                            <constraint firstItem="OTR-31-vaV" firstAttribute="centerX" secondItem="sKh-sc-62i" secondAttribute="centerX" id="E1d-Pz-Fdt"/>
-                            <constraint firstItem="aff-8E-rov" firstAttribute="top" secondItem="OTR-31-vaV" secondAttribute="bottom" constant="45" id="Lqs-vH-MBN"/>
-                            <constraint firstItem="QlR-il-d91" firstAttribute="centerX" secondItem="sKh-sc-62i" secondAttribute="centerX" id="MbN-Xh-qsf"/>
+                            <constraint firstItem="OTR-31-vaV" firstAttribute="centerX" secondItem="sKh-sc-62i" secondAttribute="centerX" constant="3" id="E1d-Pz-Fdt"/>
+                            <constraint firstItem="aff-8E-rov" firstAttribute="top" secondItem="OTR-31-vaV" secondAttribute="bottom" constant="39" id="Lqs-vH-MBN"/>
+                            <constraint firstItem="QlR-il-d91" firstAttribute="centerX" secondItem="sKh-sc-62i" secondAttribute="centerX" constant="3" id="MbN-Xh-qsf"/>
                             <constraint firstItem="QlR-il-d91" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="94" id="ZG2-Fd-4Ic"/>
-                            <constraint firstItem="aff-8E-rov" firstAttribute="centerX" secondItem="sKh-sc-62i" secondAttribute="centerX" id="ogd-Cf-DXS"/>
+                            <constraint firstItem="aff-8E-rov" firstAttribute="centerX" secondItem="sKh-sc-62i" secondAttribute="centerX" constant="3.5" id="ogd-Cf-DXS"/>
                             <constraint firstItem="QlR-il-d91" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ozn-z1-Gmd"/>
                             <constraint firstItem="QlR-il-d91" firstAttribute="top" secondItem="sKh-sc-62i" secondAttribute="bottom" constant="39" id="uD4-MV-TGP"/>
                             <constraint firstItem="sKh-sc-62i" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="uX8-aM-B0e"/>

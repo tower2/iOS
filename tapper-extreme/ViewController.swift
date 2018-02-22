@@ -25,12 +25,12 @@ class ViewController: UIViewController {
     
     @IBAction func onCoinTapped(_ sender: UIButton) {
         
-        UIButton.animate(withDuration: 0.2,
+        UIButton.animate(withDuration: 0.3,
                          animations: {
                             sender.transform = CGAffineTransform(scaleX: 0.75, y: 0.75)
             },
                          completion: { finish in
-                            UIButton.animate(withDuration: 0.2, animations: {
+                            UIButton.animate(withDuration: 0.3, animations: {
                                 sender.transform = CGAffineTransform.identity
                             })
         })
