@@ -24,6 +24,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var tapsLbl: UILabel!
     
     @IBAction func onCoinTapped(_ sender: UIButton) {
+        
+        UIButton.animate(withDuration: 0.2,
+                         animations: {
+                            sender.transform = CGAffineTransform(scaleX: 0.75, y: 0.75)
+            },
+                         completion: { finish in
+                            UIButton.animate(withDuration: 0.2, animations: {
+                                sender.transform = CGAffineTransform.identity
+                            })
+        })
+        
         currentTaps += 1;
         updateTapsLbl();
         
@@ -63,14 +74,14 @@ class ViewController: UIViewController {
         // Hidden buttons and text fields
         
         maxTaps = 0;
-        howManyTapsTxt.text = "";
+        howManyTapsTxt.text = ""
         
-        logoImg.isHidden = false;
-        tapsBtn.isHidden = false;
-        howManyTapsTxt.isHidden = false;
+        logoImg.isHidden = false
+        tapsBtn.isHidden = false
+        howManyTapsTxt.isHidden = false
         
-        playBtn.isHidden = true;
-        tapsLbl.isHidden = true;
+        playBtn.isHidden = true
+        tapsLbl.isHidden = true
         
     }
     
