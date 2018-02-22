@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tapper-extreme/ViewController.swift"
+            timestampString = "540963924.729426"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tapper_extreme.ViewController.tapsLbl.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "tapper-extreme"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jermainegoins/Documents/SwiftApps/tapper-extreme/tapper-extreme/ViewController.swift"
+                  timestampString = "540964562.9323339"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tapper_extreme.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; tapper_extreme.ViewController"
+                  moduleName = "tapper-extreme"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jermainegoins/Documents/SwiftApps/tapper-extreme/tapper-extreme/ViewController.swift"
+                  timestampString = "540964562.934822"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "369">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tapper_extreme.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;tapper_extreme.ViewController&gt;"
+                  moduleName = "tapper-extreme"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jermainegoins/Documents/SwiftApps/tapper-extreme/tapper-extreme/ViewController.swift"
+                  timestampString = "540964562.937201"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "268">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
