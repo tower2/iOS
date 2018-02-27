@@ -105,22 +105,23 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         alert.addAction(UIAlertAction(title: "Yes", style: UIAlertActionStyle.default, handler: { action in self.performSegue(withIdentifier: "addingAnotherPage", sender: self)
             
             // "Yes" button was pressed and will have the user record another Story Page
+            print(" PRINT URL:   ")
             print("Yes")
-            
-            /*
-             *  ENTER CODE TO GO TO  RECORDING BELOW
-             *
-             *  Find a way to run recording function again
-             *
-             */
+            print(self.recordingURL())
             
         }))
-    
+//    
+//        // Allows the user to move from the MiddleMan view to Read2MeScene view
+//        performSegue(withIdentifier: "reroutedToReadStory", sender: self)
+//        
+        
         alert.addAction(UIAlertAction(title: "No", style: UIAlertActionStyle.default, handler: { action in
-            self.performSegue(withIdentifier: "recordStoryScreen", sender: self)
+            self.performSegue(withIdentifier: "reroutedToReadStory", sender: self)
             
             // "No" button was pressed and sent to play Story
+            print(" PRINT URL:   ")
             print("No")
+            print(self.recordingURL())
             
             /*
              *  ENTER CODE TO GO TO  STORY BELOW
@@ -140,6 +141,8 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         let recordingName = "recordVoice.wav"
         let pathArray = [dirPath, recordingName]
         let filePath = URL(string: pathArray.joined(separator: "/"))
+        
+        print(filePath)
         
         // Adds URL file path to soundURL to reference later during playback
         soundURL?.append(filePath!)
@@ -195,7 +198,6 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
                 playSoundsVC.recordedAudioURL = recordedAudioURL
             }
         }
-    
     
 }
 

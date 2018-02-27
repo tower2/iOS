@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Read2Me/AppDelegate.swift"
+            timestampString = "539191618.132709"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Read2Me.AppDelegate.__deallocating_deinit"
+                  moduleName = "Read2Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jermainegoins/Documents/SwiftApps/Read2Me/Read2Me/AppDelegate.swift"
+                  timestampString = "539191618.141374"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Read2Me.AppDelegate.init () -&gt; Read2Me.AppDelegate"
+                  moduleName = "Read2Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jermainegoins/Documents/SwiftApps/Read2Me/Read2Me/AppDelegate.swift"
+                  timestampString = "539191618.144847"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Read2Me.AppDelegate.__allocating_init () -&gt; Read2Me.AppDelegate"
+                  moduleName = "Read2Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jermainegoins/Documents/SwiftApps/Read2Me/Read2Me/AppDelegate.swift"
+                  timestampString = "539191618.147575"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Read2Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jermainegoins/Documents/SwiftApps/Read2Me/Read2Me/AppDelegate.swift"
+                  timestampString = "539191618.149801"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Read2Me/RecordSoundsViewController.swift"
+            timestampString = "541435003.774253"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "createAlert(title:message:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Read2Me/RecordSoundsViewController.swift"
+            timestampString = "541435003.774253"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Read2Me/RecordSoundsViewController.swift"
+            timestampString = "540150449.512918"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "RecordSoundsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Read2Me.RecordSoundsViewController.__deallocating_deinit"
+                  moduleName = "Read2Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jermainegoins/Documents/SwiftApps/Read2Me/Read2Me/RecordSoundsViewController.swift"
+                  timestampString = "540150449.520018"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Read2Me.RecordSoundsViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Read2Me.RecordSoundsViewController"
+                  moduleName = "Read2Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jermainegoins/Documents/SwiftApps/Read2Me/Read2Me/RecordSoundsViewController.swift"
+                  timestampString = "540150449.522681"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Read2Me.RecordSoundsViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Read2Me.RecordSoundsViewController"
+                  moduleName = "Read2Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jermainegoins/Documents/SwiftApps/Read2Me/Read2Me/RecordSoundsViewController.swift"
+                  timestampString = "540150449.524866"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Read2Me.RecordSoundsViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Read2Me.RecordSoundsViewController&gt;"
+                  moduleName = "Read2Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jermainegoins/Documents/SwiftApps/Read2Me/Read2Me/RecordSoundsViewController.swift"
+                  timestampString = "540150449.526929"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Read2Me.RecordSoundsViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Read2Me.RecordSoundsViewController&gt;"
+                  moduleName = "Read2Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jermainegoins/Documents/SwiftApps/Read2Me/Read2Me/RecordSoundsViewController.swift"
+                  timestampString = "540150449.529186"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Read2Me/RecordSoundsViewController.swift"
+            timestampString = "540183599.198774"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "stopButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Read2Me/PlaySoundsViewController.swift"
+            timestampString = "540182355.984237"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "PlaySoundsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Read2Me.PlaySoundsViewController.chipmunkButton.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "Read2Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jermainegoins/Documents/SwiftApps/Read2Me/Read2Me/PlaySoundsViewController.swift"
+                  timestampString = "540182355.9937871"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Read2Me.PlaySoundsViewController.chipmunkButton.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "Read2Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jermainegoins/Documents/SwiftApps/Read2Me/Read2Me/PlaySoundsViewController.swift"
+                  timestampString = "540182355.995908"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Read2Me.PlaySoundsViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Read2Me.PlaySoundsViewController"
+                  moduleName = "Read2Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jermainegoins/Documents/SwiftApps/Read2Me/Read2Me/PlaySoundsViewController.swift"
+                  timestampString = "540182355.997967"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "407">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Read2Me.PlaySoundsViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Read2Me.PlaySoundsViewController&gt;"
+                  moduleName = "Read2Me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jermainegoins/Documents/SwiftApps/Read2Me/Read2Me/PlaySoundsViewController.swift"
+                  timestampString = "540182356.0000809"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "333">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
