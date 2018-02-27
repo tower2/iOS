@@ -14,6 +14,7 @@ import AVFoundation
 //MARK: Properties
 class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
 
+    // MARK: Variable preparing
     // Variable preparing app for recording story title and story content
     var audioRecorder: AVAudioRecorder!
     var recordedAudioURL: URL!
@@ -24,6 +25,11 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     var UIPasteboardTypeListURL: NSArray = []
     var soundURL: [URL]?
     var finished: Bool = false
+    
+    // MARK: countsURL
+    // This swift will play the audio file associated with the URL address and initiate array
+    var countsURL = 0
+    var audioFileArray: [Int] = []
     
     // Record Screen
     @IBOutlet weak var recordButton: UIButton!
@@ -65,6 +71,10 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         
         // Stops the audio recording and sets the setActive to inactive
         audioRecorder.stop()
+        
+        // Counts how many times the audioRecorder.stop() was performed to later assign that specific number to array element contains the URL address for that specific audio file
+        countsURL += 1
+        
         let audioSession = AVAudioSession.sharedInstance()
         try! audioSession.setActive(false)
         
