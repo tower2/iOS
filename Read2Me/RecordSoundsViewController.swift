@@ -29,7 +29,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     // MARK: countsURL
     // This swift will play the audio file associated with the URL address and initiate array
     var countsURL = 0
-    var audioFileArray: [Int] = []
+    var audioFileArray: [URL] = []
     
     // Record Screen
     @IBOutlet weak var recordButton: UIButton!
@@ -154,9 +154,13 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         
         print(filePath)
         
-        // Adds URL file path to soundURL to reference later during playback
-        soundURL?.append(filePath!)
+        // Insert soundURL into audioFileArray
+        audioFileArray.append(filePath!)
         
+        // Adds URL file path to soundURL to reference later during playback
+       // soundURL?.append(filePath!)
+        soundURL? = [audioFileArray[countsURL]]
+       
         let session = AVAudioSession.sharedInstance()
         
         try! session.setCategory(AVAudioSessionCategoryPlayAndRecord, with: AVAudioSessionCategoryOptions.defaultToSpeaker)
